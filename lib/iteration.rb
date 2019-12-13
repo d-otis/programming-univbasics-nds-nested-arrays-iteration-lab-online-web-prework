@@ -79,8 +79,8 @@ def total_even_pairs(src)
   total = 0
   row_index = 0
   while row_index < src.count do
-    if src[row_index][0] % 2 == 0 && src[row_index][0] % 2 == 0
-      puts "success"
+    if src[row_index][0] % 2 == 0 && src[row_index][1] % 2 == 0
+      puts "#{src[row_index][0]} and #{src[row_index][1]} are both EVEN"
     end
       #element_index += 1
     row_index += 1
