@@ -82,7 +82,6 @@ def total_even_pairs(src)
     if src[row_index][0] % 2 == 0 && src[row_index][1] % 2
       puts success
     end
-      #element_index += 1
     row_index += 1
   end
   total
